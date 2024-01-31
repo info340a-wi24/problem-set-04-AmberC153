@@ -1,0 +1,102 @@
+/* Base styles */
+body {
+    margin: .5rem;
+    background-color: #93b8d7; 
+    color: white; 
+}
+
+nav a {
+    color: white; 
+    size-adjust: 2.5rem; 
+    margin-right: .5em; 
+    font-size: 2.5rem; /* Font size for navigation links */
+}
+
+#social-links {
+    display: none; 
+}
+
+main {
+    text-align: center; 
+    font-family: 'Kaushan Script', fantasy; 
+    margin-top: 23vh; 
+}
+
+h1 {
+    font-size: 4rem; 
+}
+
+h2 {
+    font-size: 2rem; 
+    margin-top: 2em; 
+}
+
+/* Footer styles */
+footer {
+    display: none; 
+}
+
+/* Media queries for responsiveness */
+@media (min-width: 598px) {
+    /* Styles for medium-sized screens */
+    #hamburger-menu {
+        display: none; 
+    }
+
+    #social-links {
+        display: block; 
+    }
+}
+
+@media (min-width: 768px) {
+    html {
+        height: 100%; 
+    }
+
+    body {
+        background-image: url('../img/splash-md.jpg'); 
+        background-position: center; 
+        background-size: cover; 
+    }
+
+    main {
+        text-shadow: 1px 1px #153c43; 
+    }
+
+    footer {
+        display: block; 
+        position: fixed; 
+        right: 0; 
+        bottom: 0; 
+    }
+}
+
+@media (min-width: 992px) {
+    /* Styles for large screens */
+    body {
+        background-image: url('../img/splash-lg.jpg');
+        background-position: center; 
+        background-size: cover; 
+    }
+
+    nav a {
+        font-size: 1.5rem; 
+    }
+
+    h1 {
+        font-size: 5rem; 
+    }
+
+    h2 {
+        font-size: 3rem; 
+    }
+}
+
+@media (min-width: 1200px) { 
+    /* Styles for extra-large screens */
+    body {
+        background-image: url('../img/splash-xl.jpg'); 
+        background-position: center; 
+        background-size: cover; 
+    }
+}
