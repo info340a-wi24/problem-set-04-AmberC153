@@ -1,0 +1,48 @@
+/* Style for header */
+header {
+    background-color: #343a40; /* Dark background */
+    color: #fff; /* White text */
+    padding: 3rem 0; /* Appropriate padding */
+  }
+  
+  header .lead {
+    font-size: 1.25rem; /* Lead subtitle font size */
+  }
+  
+  /* Style for cards */
+  .card {
+    margin-bottom: 1.5rem; /* Spacing below cards */
+  }
+  
+  .card img {
+    margin-bottom: 1rem; /* Spacing below images */
+  }
+  
+  .card-title {
+    color: #212529; /* Card title color */
+  }
+  
+  .card-text {
+    color: #6c757d; /* Card text color */
+  }
+  
+  .card a.btn {
+    background-color: #343a40; /* Dark colored buttons */
+    border-color: #343a40;
+  }
+  
+  /* Responsive grid for cards */
+  @media (min-width: 768px) {
+    .col-md-6 {
+      flex: 0 0 50%; /* Cards take up 1/2 of the screen on medium screens */
+      max-width: 50%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .col-xl-3 {
+      flex: 0 0 25%; /* Cards take up 1/4 of the screen on extra-large screens */
+      max-width: 25%;
+    }
+  }
+  
